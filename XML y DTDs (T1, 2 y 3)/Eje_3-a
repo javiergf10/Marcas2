@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Yo>
+<Nombre>"Javier"</Nombre>
+<Apellidos>García Fernández</Apellidos>
+<DNI>58429870A</DNI>
+<Fecha_de_nacimiento>09/02/1998</Fecha_de_nacimiento>
+<Dirección_postal  Codigo_postal= "69215">
+C/Nosedondevivo
+B1,
+Gijón,
+España</Dirección_postal>
+<Telefono>684636211</Telefono>
+<correo>javiner1992@gmail.com</correo>
+</Yo>

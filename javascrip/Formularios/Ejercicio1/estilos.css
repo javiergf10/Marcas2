@@ -1,0 +1,54 @@
+
+
+body { 
+  font-family: sans-serif; 
+  padding: 10px 40px; 
+}
+
+h1 { 
+  color:#BBBBBB;
+  letter-spacing: 10px; 
+  text-align: center; 
+  text-transform: uppercase; 
+}
+
+fieldset { 
+  border: dashed #BBBBBB 2px; 
+  margin: 20px 0px; 
+}
+
+legend { 
+  background-color: #BBBBBB; 
+  color: white; 
+  font-weight: bold; 
+  padding: 2px 0.2em; 
+}
+
+ul.flota { 
+  list-style-type: none; 
+  margin: 5px; 
+  padding: 0px;
+}
+
+ul.flota li { 
+  background-color: #EEEEEE; 
+  float: left; 
+  margin: 0px 10px 5px 0px; 
+  padding: 2px 10px; 
+}
+
+ul.borde { 
+  list-style-type: none; 
+  margin: 0px 5px; 
+  padding: 0px; 
+}
+
+ul.borde li { 
+  background-color: #EEEEEE; 
+  margin: 0px 10px 5px 0px; 
+  padding: 2px 10px; 
+}
+
+li li { 
+  list-style-type: disc; 
+}

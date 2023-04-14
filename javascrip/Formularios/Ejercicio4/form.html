@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<!-- Inserted by miarroba -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Formulario datos personales. Ejercicios. Páginas web HTML / XHTML y hojas de estilo CSS. Bartolomé Sintes Marco</title>
+  <meta name="generator" content="Amaya, see http://www.w3.org/Amaya/" />
+  <link href="estilos.css" rel="stylesheet"
+  type="text/css" title="Color" />
+</head>
+
+<body>
+<!-- Inserted by miarroba -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2VG59" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- Inserted by miarroba -->
+<h1>Ejemplo de formulario</h1>
+
+<p>Esta página contiene varios ejemplos de Javascript aplicado a
+formularios.</p>
+<hr />
+
+<h2>Activar y desactivar elementos</h2>
+
+<p>Al seleccionar "Directo" se activan las subopciones. Al seleccionar
+"Mediante prueba", se deseleccionan.</p>
+
+<fieldset class="a">
+  <legend>Requisitos de acceso</legend>
+
+  <table border="0">
+    <caption></caption>
+    <tbody>
+      <tr>
+        <td><input type="radio" name="radioa" value="ra1"
+          onclick="activa_radiob(this.form)" /></td>
+        <td colspan="2">Directo</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="radio" name="radiob" value="rb1" disabled="disabled"
+          /></td>
+        <td>Bachillerato LOGSE. Modalidad: <input type="text" name="rb1b"
+          disabled="disabled" /></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="radio" name="radiob" value="rb2" disabled="disabled"
+          /></td>
+        <td>Bachillerato experimental</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="radio" name="radiob" value="rb3" disabled="disabled"
+          /></td>
+        <td>COU. Opción: <input type="text" name="rb3b" disabled="disabled"
+        /></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="radio" name="radiob" value="rb4" disabled="disabled"
+          /></td>
+        <td>FP2</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="radio" name="radiob" value="rb5" disabled="disabled"
+          /></td>
+        <td>Otros (especifique): <input type="text" name="rb5b"
+          disabled="disabled" /></td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="radioa" value="ra2"
+          onclick="desactiva_radiob(this.form)" /></td>
+        <td colspan="2">Mediante prueba</td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+<hr />
+
+<h2>Modificar una lista en función de otra</h2>
+
+<p>Al seleccionar un nivel, la lista de cursos ofrece las opciones posibles
+para ese nivel.</p>
+
+
+<form action="" method="post">
+  <fieldset class="b">
+    <legend>Datos personales</legend>
+    <p>Nivel: 
+    <select name="nivel"
+    onchange="fillSelectFromArray(this.form.curso, ((this.selectedIndex == -1) ? null : modelinfo[this.selectedIndex-1]));">
+      <option value="-1" selected="selected"></option>
+      <option value="secundaria">Secundaria</option>
+      <option value="bachillerato">Bachillerato</option>
+      <option value="ciclo_superior">Ciclo</option>
+    </select>
+     - Curso: 
+    <select name="curso">
+      <option></option>
+    </select>
+     </p>
+  </fieldset>
+</form>
+<hr />
+
+<h2>Avisar de que algo no está relleno</h2>
+
+<p>Al enviar el formulario, avisa de que no se ha rellenado algún campo</p>
+
+
+
+<form action="" method="post" onsubmit="return noEntry()">
+  <fieldset class="c">
+    <legend>Datos personales</legend>
+    <ul>
+      <li>Nombre: <input type="text" name="nombre" size="40" /></li>
+      <li>Nacido en: 
+        <select name="nacido">
+          <option value="" selected="selected"></option>
+          <option value="Alicante">Alicante</option>
+          <option value="Castellon">Castellón</option>
+          <option value="Valencia">Valencia</option>
+          <option value="Otros">Otros</option>
+        </select>
+         </li>
+      <li>Sexo: <input type="radio" name="sexo" value="hombre" />Hombre
+        <input type="radio" name="sexo" value="mujer" />Mujer</li>
+    </ul>
+
+    <p class="derecha">
+    <input type="reset" value="Borrar todo" name="Reset" /> 
+    <input type="button" value="Comprobar" name="Comprobar"
+    onclick="return noEntry()" /></p>
+  </fieldset>
+</form>
+<hr />
+
+<p></p>
+<!-- Inserted by miarroba -->
+</script></noframes></noembed></noscript>
+<script type="text/javascript" src="https://hosting.miarroba.info/?__muid=492b083296555bee8edad6483044830cc38cbbf4&amp;h=1305527&amp;t=1612696517&amp;k=4d877857c9c62303bb80a8821f224522"></script><noscript><img alt="beacon" border="0" width="1" height="1" src="https://hosting.miarroba.info/?__muid=492b083296555bee8edad6483044830cc38cbbf4&amp;h=1305527&amp;t=1612696517&amp;k=4d877857c9c62303bb80a8821f224522&amp;img=1" /></noscript>
+<script type="text/javascript">var s=document.createElement("script");var t="//des.smartclip.net/ads?type=dyn&plc=75133&elementId=492b083296555bee8edad6483044830cc38cbbf4&sz=400x320&rnd="+Math.round(Math.random()*1e8);s.type="text/javascript";s.src=t;document.body.appendChild(s);</script><div id="492b083296555bee8edad6483044830cc38cbbf4"></div>
+<div id="ads_HEZRL65RXYI2"></div>
+
+<!-- Inserted by miarroba -->
+</body>
+</html>

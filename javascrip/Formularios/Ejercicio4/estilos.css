@@ -1,0 +1,45 @@
+/* XHTML y CSS con AMAYA
+   Bartolomé Sintes Marco
+   http://www.mclibre.org
+   
+   CSS ejercicio: JavaScript en formularios
+   16 de diciembre de 2003
+*/
+
+body { background-color: #FAFAFA; font-family: sans-serif; text-align: justify;}
+
+h1 { text-align: center; text-transform: uppercase; background-color: #EAEAEA;
+  font-size: 125%;}
+
+fieldset { margin: 10px 20px; }
+fieldset legend { padding: 0px 5px;  background-color: white; border: solid black 3px; }
+
+fieldset.a { background-color: #EEEEEE; }
+fieldset.a legend { border-color: #EEEEEE; }
+
+fieldset.b { background-color: lightyellow; }
+fieldset.b legend { border-color: lightyellow; }
+
+fieldset.c { background-color: lightblue; }
+fieldset.c legend { border-color: lightblue; }
+
+fieldset.d { background-color: lightpink; }
+fieldset.d legend { border-color: lightpink; }
+
+fieldset.e { background-color: bisque; }
+fieldset.e legend { border-color: bisque; }
+
+p { margin: 0px; }
+
+div#firma { width: 100%; height: 8em; margin-top: 10px;}
+div#registro { float:right; width: 150px; height: 150px; 
+ border: solid 1px black; background-color: white; margin-top: 10px;
+}
+
+div#registro p { text-align: center; font-size: 80%; }
+
+p.pie { font-size: 80%; border: dashed 2px black ; padding: 5px; margin: 0px 20px; }
+p.grande { text-align: center; text-transform: uppercase; font-weight: bold;
+letter-spacing: 5px; margin-top: 10px;}
+
+p.derecha { text-align: right; }

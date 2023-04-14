@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estiloExamen.css">
+</head>
+
+<body>
+
+    <header>Inscripcion curso</header>
+
+
+    <form action="salida.php" method="post">
+        <section id="cont">
+            <fieldset id="person">
+                <legend>Datos personales</legend>
+                <label for="apellidos">Apellidos:<input type="text" id="apellidos" name="apellidos"></label>
+                <label for="nombre">Nombre:<input type="text" id="nombre" name="nombre"> </label><br>
+                <label for="dni">DNI:<input type="text" id="dni" name="dni"></label>
+                <label for="edad">Edad: <input type="text" id="edad" name="edad"></label>
+                <label for="">Sexo:
+                    <input type="radio" name="sexo" id="hombre" value="hombre"><label for="hombre">Hombre </label>
+                    <input type="radio" name="sexo" id="mujer" value="mujer"><label for="mujer">Mujer</label>
+                </label>
+            </fieldset>
+
+            <fieldset id="complem">
+                <legend>Datos complementarios</legend>
+                <section id="firstrow">
+                    <div class="col"><label for="nacido">Nacido en: </label><input type="text" name="nacido" id="nacido">
+                    </div>
+                    <div class="col"><label for="provincia">Provincia: </label>
+                    <select name="provincia" id="provincia">
+                        <option value="Valencia">Valencia</option>
+                        <option value="Asturias">Asturias</option>
+                        <option value="Cantabria">Cantabria</option>
+                    </select></div>
+
+                    <div class="col"><label for="nacimiento">Fecha nacimiento:</label><input type="date"
+                            name="nacimiento" id="nacimiento"></div>
+                </section>
+                <section id="secondrow"><div class="col"><label for="domicilio">Domicilio:</label>
+                    <div id="srcontent"><select name="tipo" id="tipo">
+                        <option value="Calle">Calle</option>
+                        <option value="Avenida">Avenida</option>
+                        <option value="Camino">Camino</option>
+                    </select>
+                    <input type="text" name="domicilio" id="domicilio"></div></div>
+                
+                <div class="col"><label for="cod">Código Postal: </label><input type="number" name="cod" id="cod"></div></section>
+            </fieldset>
+        </section>
+        <section id="botones"> <input type="reset" value="Borrar todo">
+            <input type="submit" value="Enviar">
+        </section>
+    </form>
+
+    <nav id="uno"><p>(*) Los datos personales contenidos en este impreso podrán ser incluidos en un fichero para su
+        tratamiento por la Conselleria de Cultura y Educación</p></nav>
+    <footer id="dos">Consejeria de educacion principado de asturias</footer>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "dtd.DTD">
+<libros>
+          <Libro isbn="a" fecha="4" paginas="4">
+            <Titulo>dfgd</Titulo>
+            <Categoria>sgsrd</Categoria>
+            <Precio moneda="dol"></Precio>
+        </Libro>
+</libros>

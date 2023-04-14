@@ -1,0 +1,105 @@
+/* XHTML y CSS con AMAYA
+   Bartolomé Sintes Marco
+   http://www.mclibre.org
+   
+   CSS ejercicio: Hoja de inscripción
+   9 de diciembre de 2003
+*/
+
+body { 
+  background-color: #FAFAFA; 
+  font-family: sans-serif; 
+  text-align: justify;
+}
+
+h1 { text-align: center; text-transform: uppercase; background-color: #EAEAEA;
+  font-size: 125%;}
+
+fieldset { 
+  margin: 10px 20px; 
+}
+
+fieldset legend { 
+  background-color: white; 
+  border: solid black 3px; 
+  padding: 0px 5px;  
+}
+
+fieldset#a { 
+  background-color: #EEEEEE; 
+}
+
+fieldset#a legend { 
+  border-color: #EEEEEE; 
+}
+
+fieldset#b { 
+  background-color: lightyellow; 
+}
+
+fieldset#b legend { 
+  border-color: lightyellow; 
+}
+
+fieldset#c { 
+  background-color: lightblue; 
+}
+
+fieldset#c legend { 
+  border-color: lightblue; 
+}
+
+fieldset#d { 
+  background-color: lightpink; 
+}
+
+fieldset#d legend { 
+  border-color: lightpink; 
+}
+
+fieldset#e { 
+  background-color: bisque; 
+}
+
+fieldset#e legend { 
+  border-color: bisque; 
+}
+
+p { 
+  margin: 0px; 
+}
+
+div#firma { 
+  height: 8em; 
+  margin-top: 10px;
+  width: 100%; 
+}
+
+div#registro { 
+  background-color: white; 
+  border: solid 1px black; 
+  float:right; 
+  height: 150px; 
+  margin-top: 10px;
+  width: 150px; 
+}
+
+div#registro p { 
+  font-size: 80%; 
+  text-align: center; 
+}
+
+p.pie { 
+  border: dashed 2px black ; 
+  font-size: 80%; 
+  margin: 0px 20px; 
+  padding: 5px; 
+}
+
+p.grande { 
+  font-weight: bold;
+  letter-spacing: 5px; 
+  margin-top: 10px;
+  text-align: center; 
+  text-transform: uppercase; 
+}
