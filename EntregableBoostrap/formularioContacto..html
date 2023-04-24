@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.84.0">
+  <title>Checkout example · Bootstrap v5.0</title>
+  <link rel='stylesheet' type='text/css' media='screen' href="estilosCSS/estilosF.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/checkout/">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Bootstrap core CSS -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="form-validation.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+  <div class="container">
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/EntregableBoostrap/paginaInicio.html">Pagina Principal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"
+                  href="/EntregableBoostrap/actividadesAsturias.html">Actividades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/EntregableBoostrap/Galería.html">Galería</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">¡Busca!</button>
+              <!--Este buscador no lleva a ningun sitio-->
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="/EntregableBoostrap/imagenes/5320_400.png" alt="" width="72" height="77">
+        <h2>Contactanos</h2>
+        <p class="lead">Cuentanos cualquier cosa</p>
+      </div>
+
+      <div class="row g-5">
+        
+        <div class="col-md-7 col-lg-12">
+          <h4 class="mb-3">Datos de contacto</h4>
+          <form class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="username" class="form-label">Nombre de usuario</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text">@</span>
+                  <input type="text" class="form-control" id="username" placeholder="ejemplo" required>
+                  <div class="invalid-feedback">
+                    Your username is required.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="address" class="form-label">Direccion</label>
+                <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                <div class="invalid-feedback">
+                  Please enter your shipping address.
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="address2" class="form-label">2º Direccion <span class="text-muted">(Opcional)</span></label>
+                <input type="text" class="form-control" id="address2" placeholder="Piso">
+              </div>
+
+              <div class="col-md-5">
+                <label for="country" class="form-label">Pais</label>
+                <select class="form-select" id="country" required>
+                  <option value="">Elige...</option>
+                  <option>Españita</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid country.
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <label for="state" class="form-label">Comunidad</label>
+                <select class="form-select" id="state" required>
+                  <option value="">Elige..</option>
+                  <option>Asturias</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <label for="zip" class="form-label">Provincia</label>
+                <input type="text" class="form-control" id="zip" placeholder="Opcional" required>
+                <div class="invalid-feedback">
+                  Zip code required.
+                </div>
+              </div>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="same-address">
+              <label class="form-check-label" for="same-address">Deseo suscribirme porque me gusta la publicidad</label>
+            </div>
+
+
+            <hr class="my-4">
+
+            <h4 class="mb-3">Cuentanos</h4>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Asunto:</label>
+              <textarea type="text" class="form-control" id="texto" placeholder="" required></textarea>
+              <div class="invalid-feedback">
+                Este campo no puede estar vacío
+              </div>
+            </div>
+
+            <div class="my-3">
+              <div class="form-check">
+                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                <label class="form-check-label" for="credit">Estoy buscando en la pagina</label>
+              </div>
+              <div class="form-check">
+                <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="debit">He disfrutado de sus servicios</label>
+              </div>
+              <div class="form-check">
+                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="paypal">Otro</label>
+              </div>
+            </div>
+            <hr class="my-4">
+            <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    
+  </div>
+  <footer class="container" id="footer">
+    <hr>
+    <p class="float-end"><a href="#">Pa'rriba</a></p>
+    <p>Trabajo realizado por <b>Javier García Fernandez</b> para mi querído profesor de marcas</p>
+  </footer>
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="form-validation.js"></script>
+</body>
+
+</html>
