@@ -3,17 +3,19 @@
 <html>
 
 <head>
-    
+
     <meta charset="UTF-8">
     <title>Formulario</title>
     <link rel="stylesheet" href="estiloExamen.css">
+    
 </head>
+
 <body>
 
     <header>Inscripcion curso</header>
 
 
-    <form action="formulario.php" method="POST">
+    <form action="formulario.php" method="post">
         <section id="cont">
             <fieldset id="person">
                 <legend>Datos personales</legend>
@@ -54,20 +56,23 @@
                             <input type="text" name="domicilio" id="domicilio">
                         </div>
                     </div>
-
                     <div class="col"><label for="cod">Código Postal: </label><input type="number" name="cod" id="cod">
                     </div>
                 </section>
             </fieldset>
         </section>
-        <section id="botones"> <input type="reset" value="Borrar todo">
+        <section id="botones">
+            <input type="reset" value="Borrar todo">
             <input type="submit" value="Enviar">
         </section>
     </form>
 
+
+    
+
     <nav id="uno">
         <p>(*) Los datos personales contenidos en este impreso podrán ser incluidos en un fichero para su
-            tratamiento por la Conselleria de Cultura y Educación</p>
+            tratamiento por la Consejeria de Cultura y Educación</p>
     </nav>
     <footer id="dos">Consejeria de educacion principado de asturias</footer>
 </body>

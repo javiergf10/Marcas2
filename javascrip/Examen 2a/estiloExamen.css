@@ -1,12 +1,12 @@
 body{
-    padding: 0;
-    font-family: sans-serif;
+    padding: 0;  /*Básicamente, define el espacio entre el borde de un elemento y su contenido interno.*/
+    font-family: sans-serif; 
 }
 header{
     background-color: #f0d2f6;
     text-align: center;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-weight: bolder;/*negrta*/
     margin-bottom: 20px;
     width: 100%;
 }
@@ -46,6 +46,9 @@ input,select{
     width:50px;
 }
 #firstrow{
+    /* el elemento se convierte en un contenedor flexible y sus hijos directos se organizan en una fila o columna, 
+    dependiendo de la dirección establecida por la propiedad flex-direction. Los hijos flexibles pueden utilizar propiedades 
+    adicionales como justify-content y align-items para controlar la alineación horizontal y vertical respectivamente*/
     display: flex;
     justify-content: space-between;
 }
@@ -53,6 +56,9 @@ input,select{
     display: flex;
 }
 .col{
+    /* el elemento se convierte en un contenedor flexible y sus hijos directos se organizan en una fila o columna, 
+    dependiendo de la dirección establecida por la propiedad flex-direction. Los hijos flexibles pueden utilizar propiedades 
+    adicionales como justify-content y align-items para controlar la alineación horizontal y vertical respectivamente*/
     display: flex;
     flex-direction: column;
     justify-content: left;

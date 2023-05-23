@@ -1,4 +1,4 @@
-<!DOCTYPE declaraciones SYSTEM "file:/C:/Users/usu15v/Desktop/ex/Ejercicio1XML.">
+<!DOCTYPE declaraciones SYSTEM "file:\C:\Users\Javi\Desktop\Nueva carpeta\Ejercicio1XML.">
 <!DOCTYPE declaraciones [
 <!ELEMENT declaraciones (consonante, variable+, tipo_de_dato+)>
 <!ELEMENT consonante (#PCDATA)>

@@ -1,0 +1,71 @@
+body{
+    
+    padding: 10px 40px;
+}
+h1{
+    text-align: center;
+    background-color:rgb(241, 238, 238);
+    border-style: dashed;
+    border-left: hidden;
+    border-right: hidden;
+}
+fieldset{
+    margin-top: 15px;
+}
+.personal,
+.general{
+    background-image:url(fondo.jpg)
+}
+legend { 
+    background-color: white;
+    border-color: black;
+    border-style:groove ; 
+    font-weight: bold; 
+    padding: 2px 0.2em; 
+  }
+ul{
+    display: inline;
+}
+li{
+    list-style: none;
+}
+ul.general li { 
+    background-color: #EEEEEE; 
+    margin: 0px 10px 5px 0px; 
+    padding: 2px 10px; 
+}
+.lista>li{
+    margin: 5px;
+    float: left;
+    display: inline;
+    list-style-type:none;
+}
+#apellidos{
+    width: 200px;
+}
+#nombre{
+    width: 150px;
+}
+#DNI{
+    width: 100px;
+}
+#edad{
+    width: 50px;
+}#cdos{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:10px;
+    letter-spacing: 0.4em;
+    font-size: larger;
+}
+#caja{
+    font-weight: 700;
+    border:dashed black;
+    text-align: center;
+    height: fit-content;
+    width: 90%;
+    margin:auto;
+}
+#botones{
+    text-align: center;
+}

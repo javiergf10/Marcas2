@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE declaraciones SYSTEM "file:/C:/Users/usu15v/Desktop/ex/Ejercicio1DTD.dtd">
+<!DOCTYPE declaraciones SYSTEM "file:C:\Desktop\Ejercicio1XML">
 <declaraciones>
    <consonante valor="3.141592">PI</consonante>
    <variable tipo="real">radio</variable>
