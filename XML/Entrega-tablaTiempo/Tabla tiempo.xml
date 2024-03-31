@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Tabla_de_tiempo>
+<Lugar Ciudad="Gijon">
+<Fecha Dia="MAR-12">
+<Tem_MINyMAX>14/20</Tem_MINyMAX>
+<IndUltravioletaMAX>4</IndUltravioletaMAX>
+<hora hora="0-06">
+<cielo>cubierto</cielo>
+<Temperatura>16ºC</Temperatura>
+<Precipitacion>3%</Precipitacion>
+<Nieve></Nieve>
+<DireccionViento>S</DireccionViento>
+<VelViento>20</VelViento>
+</hora>
+<hora hora="06-12">
+<cielo>DESPEJADO</cielo>
+<Temperatura>18ºC</Temperatura>
+<Precipitacion>0%</Precipitacion>
+<Nieve>1000</Nieve>
+<DireccionViento>SE</DireccionViento>
+<VelViento>30</VelViento>
+</hora>
+<hora hora="12-18">
+<cielo>DESPEJADO</cielo>
+<Temperatura>16ºC</Temperatura>
+<Precipitacion>0%</Precipitacion>
+<Nieve>1200</Nieve>
+<DireccionViento>N</DireccionViento>
+<VelViento>20</VelViento>
+</hora>
+<hora hora="12-24">
+<cielo>despejado</cielo>
+<Temperatura>12ºC</Temperatura>
+<Precipitacion>0%</Precipitacion>
+<Nieve>1400</Nieve>
+<DireccionViento>O</DireccionViento>
+<VelViento>10</VelViento>
+</hora>
+</Fecha>
+<Fecha Dia="MIER-13">
+<Tem_MINyMAX>18/20</Tem_MINyMAX>
+<IndUltravioletaMAX>5</IndUltravioletaMAX>
+<hora hora="0-06">
+<cielo>DESPEJADO</cielo>
+<Temperatura>14ºC</Temperatura>
+<Precipitacion>10%</Precipitacion>
+<Nieve></Nieve>
+<DireccionViento>N</DireccionViento>
+<VelViento>10</VelViento>
+</hora>
+<hora hora="06-12">
+<cielo>NUBLADO</cielo>
+<Temperatura>25ºC</Temperatura>
+<Precipitacion>15%</Precipitacion>
+<Nieve></Nieve>
+<DireccionViento>E</DireccionViento>
+<VelViento>15</VelViento>
+</hora>
+<hora hora="12-18">
+<cielo>DESPEJADO</cielo>
+<Temperatura>25</Temperatura>
+<Precipitacion>13%</Precipitacion>
+<Nieve>1100</Nieve>
+<DireccionViento>SE</DireccionViento>
+<VelViento>20</VelViento>
+</hora>
+<hora hora="18-24">
+<cielo>NUBLADO</cielo>
+<Temperatura>23ºC</Temperatura>
+<Precipitacion>2%</Precipitacion>
+<Nieve></Nieve>
+<DireccionViento>E</DireccionViento>
+<VelViento>15</VelViento>
+</hora>
+</Fecha>
+</Lugar>
+</Tabla_de_tiempo>

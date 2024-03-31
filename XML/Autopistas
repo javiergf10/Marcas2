@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<eventos>
+<evento numero="1" fecha_y_hora="">
+<Señal_de Tipo_de_señal="accidente" />
+<Punto_kilometrico>361</Punto_kilometrico>
+<Nombre_de_la_via>A-6</Nombre_de_la_via>
+<Sentido>santander</Sentido>
+<Corte_de_la_via>1 carril</Corte_de_la_via>
+<Retencion>Si</Retencion>
+<Kilçometros_de_retencion>8</Kilçometros_de_retencion>
+</evento>
+
+<evento numero="2" fecha_y_hora="">
+<Señal_de Tipo_de_señal="retencion" />
+<Punto_kilometrico>215</Punto_kilometrico>
+<Nombre_de_la_via>A-8</Nombre_de_la_via>
+<Sentido>Zaragoza</Sentido>
+<Corte_de_la_via></Corte_de_la_via>
+<Retencion>Si</Retencion>
+<Kilçometros_de_retencion>3</Kilçometros_de_retencion>
+</evento>
+</eventos>

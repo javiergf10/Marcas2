@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<ludoteca>
+<juego>
+<Titulo>Colina Silenciosa</Titulo>
+<Compañia>Konomo</Compañia>
+<Género>Terror, Walking simulator</Género>
+<Fecha_de_lanzamiento>21/10/2022</Fecha_de_lanzamiento>
+<Sinopsis>
+La empresa indie Konomo nos trae, de forma completamente gratuita, una recreación
+en Unreal Engine 4 de la ciudad del clasico de terror original "Silent Hill". 
+</Sinopsis>
+</juego>
+<juego>
+<Titulo>Juanito Brothers 2</Titulo>
+<Compañia>Nontendo</Compañia>
+<Género>Shoter looter, FPS, Battle Royal</Género>
+<Fecha_de_lanzamiento>21/10/2022</Fecha_de_lanzamiento>
+<Sinopsis>
+Esta segunda entrega del spin off de la franquicia Juanito's actualiza el contenido de la primera,
+no solo conservando todos los mapas y modos de juego de la primera y trallendolos de vuelta
+con mejor resolución para las nuevas generaciones, si no con un nuevo sistema PVPVE que
+cambia por completo la comprensión del titulo.
+</Sinopsis>
+</juego>
+<juego>
+<Titulo>Metal Geranios</Titulo>
+<Compañia>Konomo</Compañia>
+<Género>Granjas, Crafteo, Decoración,Dating sim</Género>
+<Fecha_de_lanzamiento>2/1/2025</Fecha_de_lanzamiento>
+<Sinopsis>
+
+</Sinopsis>
+</juego>
+<juego>
+<Titulo></Titulo>
+<Compañia></Compañia>
+<Género></Género>
+<Fecha_de_lanzamiento></Fecha_de_lanzamiento>
+<Sinopsis>
+
+</Sinopsis>
+</juego>
+<juego>
+<Titulo></Titulo>
+<Compañia></Compañia>
+<Género></Género>
+<Fecha_de_lanzamiento></Fecha_de_lanzamiento>
+<Sinopsis>
+
+</Sinopsis>
+</juego>
+</ludoteca>

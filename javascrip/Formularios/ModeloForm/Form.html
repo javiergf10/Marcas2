@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>ModeloForm</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Form.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <form action="" method="">
+        <fieldset><!--Permite organizar en grupos los campos de un formulario, 
+        poniendole legend si queremos -->
+            <legend>Requisitos de acceso</legend> <!-- Titulo a la caja del formulario -->
+            <!-- Ponemos una tabla para darle un formato ordenado al contenido -->
+            <table>
+                <caption>Pone un titulo a una tabla</caption>
+                <!-- un th sería un encabezado -->
+                <tr><!-- Fila -->
+                    <!-- Radio es para los botones -->
+                    <!-- Colspan indica el numero de columnas que ocupará la celda. 
+                Rowspan, indica el número de filas que ocupará la celda-->
+                    <td><input type="radio" name="radioA" value="ra1" /></td>
+                    <td colspan="2">Directo</td>
+                </tr>
+                <tr>
+                    <td></td> <!-- Celda de datos -->
+                    <!-- Disabled permite deshabilitar elementos. Si es true, se ven en gris 
+                y no se puede interactuar con ellos ni son enviados al destino-->
+                    <td><input type="radio" name="radiob" value="rb1" disabled="disabled" /></td>
+                    <td>Bachillerato LOGSE. Modalidad: <input type="text" name="rb1b" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="radio" name="radiob" value="rb5" disabled="disabled" /></td>
+                    <td>Otros (especifique): <input type="text" name="rb5b" disabled="disabled" /></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="radioa" value="ra2" /></td>
+                    <td colspan="2">Mediante prueba</td>
+                </tr>  
+                <tr>
+                    <td>
+                        <label><input type="checkbox" name="d01" /> Fotocopia DNI</label>
+                    </td>
+                </tr>    
+                <tr>
+                    <td>
+                        <label><input type="checkbox" name="d02" />Certificado académcio</label>
+                    </td>
+                </tr> 
+            </table>
+
+        </fieldset>
+
+        <fieldset>
+            <table>
+                <tr>
+                    <td>
+                        <!-- Value hace que se muestre un mensaje en el interior -->
+                        <!-- maxlength es el tamaño maximo del contenido y size el tamaño maximo de la -->
+                        <label for="nombre">Nombre:
+                            <input type="text" name="nombre" id="nombre" size="15" value="Nombre"
+                                maxlength="40" /></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mail">Correo: <input type="text" id="Correo" /></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Provincia:
+                        <select name="a05">
+                            <!-- El elemento con selected se nuestra como primera opcion -->
+                            <option value="Alicante">Alicante</option>
+                            <option value="Castellon">Castellón</option>
+                            <option value="Valencia" selected="selected">Valencia</option>
+                            <option value="Otros">Otros</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <div class="button">
+            <button type="submit">Pulsa para enviar</button>
+        </div>
+        <div class="button">
+            <button type="reset">¿La has liado?
+                </br> Borra <u>aquí</u>
+            </button>
+        </div>
+        </tr>
+    </form>
+</body>
+
+</html>

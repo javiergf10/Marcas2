@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE declaraciones SYSTEM "Ejercicio1DTD.dtd">
+<declaraciones>
+   <consonante valor="3.141592">PI</consonante>
+   <variable tipo="real">radio</variable>
+   <variable>area</variable>
+   <variable>longitud</variable>
+   <tipo_de_dato>
+      <fecha>20 de julio de 1969</fecha>
+    <hecho>Llegada del hombre a la Luna</hecho>
+    <hecho>Aterriza el hombre en la Luna</hecho>
+   </tipo_de_dato>
+      <tipo_de_dato>
+      <fecha>22 de julio de 2009</fecha>
+       <hecho>Se estrena Avatar</hecho>
+   </tipo_de_dato>
+
+</declaraciones>

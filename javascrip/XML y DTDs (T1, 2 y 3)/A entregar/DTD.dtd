@@ -1,0 +1,9 @@
+<!DOCTYPE ludoteca [
+<!ELEMENT ludoteca (juego+)>
+<!ELEMENT juego (Titulo+, Compañia+, Género+, Fecha_de_lanzamiento+, Sinopsis*)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Género (#PCDATA)>
+<!ELEMENT Compañia (#PCDATA)>
+<!ELEMENT Fecha_de_lanzamiento (#PCDATA)>
+<!ELEMENT Sinopsis (#PCDATA)>
+]>

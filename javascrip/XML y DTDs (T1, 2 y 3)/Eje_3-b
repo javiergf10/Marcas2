@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylasheat type=""text/css"Eje_3-b="archivio.css"?>
+<Contactos>
+<Contacto>
+<Nombre></Nombre>
+<Apellidos></Apellidos>
+<DNI></DNI>
+<Fecha_de_nacimiento></Fecha_de_nacimiento>
+<Dirección_postal  Codigo_postal= ""></Dirección_postal>
+<Telefono></Telefono>
+<correo></correo>
+</Contacto>
+<Contacto>
+<Nombre></Nombre>
+<Apellidos></Apellidos>
+<DNI></DNI>
+<Fecha_de_nacimiento></Fecha_de_nacimiento>
+<Dirección_postal  Codigo_postal= ""></Dirección_postal>
+<Telefono></Telefono>
+<correo></correo>
+</Contacto>
+</Contactos>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE factura SYSTEM "file:/C:/Users/alu05v/OneDrive%20-%20Consejer%C3%ADa%20de%20Educaci%C3%B3n/Marcas/Factura/Factura%20externa/factura.dtd">
+<factura n_fac="f999">
+ <datos_empresa>
+ <nombre>ASAC comunicaciones.</nombre>
+ <dir>General Elorza 1</dir>
+ <poblacion cod_postal="33400">Oviedo</poblacion>
+ <provincia>Asturias</provincia>
+ <cif>Q-945455</cif>
+ <telefono />
+ </datos_empresa>
+ <datos_cliente n_cli="c900">
+ <nombre>Jose, Fernandez Perez</nombre>
+ <dir_env>General Elorza 1</dir_env>
+ <poblacion cod_postal="33400">Oviedo</poblacion>
+ <provincia>Asturias</provincia>
+ </datos_cliente>
+ <datos_factura n_ped="p800" iva="16" f_pago="efectivo" moneda="euro">
+  <fecha>12-01-2005</fecha>
+  <linea>
+    <ref>MII9494/8</ref>
+   <desc>MICRO PENTIUM IV 3000MHZ FB9494</desc>
+   <cant>1</cant>
+   <precio>230</precio>
+   <importe>294,80</importe>
+ </linea>
+ <linea>
+   <ref>MOOQDIP4</ref>
+   <desc>PLACA BASE QDI P4</desc>
+  <cant>1</cant>
+   <precio>180</precio>
+  <importe>180,80</importe>
+ </linea>
+ <linea>
+ <ref>MM512M32</ref>
+ <desc>DIMM DDR 512MB 3200</desc>
+ <cant>2</cant>
+ <precio>40</precio>
+ <importe>92,80</importe>
+ </linea>
+ <linea>
+ <ref>HD250SATA</ref>
+ <desc>DISCO DURO 250GB S-ATA 7200</desc>
+ <cant>4</cant>
+ <precio>120</precio>
+ <importe>500,80</importe>
+ </linea>
+  <base>970,00</base>
+  <cuota_iva>155,20</cuota_iva>
+   <total>1125,20</total>
+ </datos_factura>
+</factura>

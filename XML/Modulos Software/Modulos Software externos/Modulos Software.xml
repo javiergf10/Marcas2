@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!DOCTYPE informacion SYSTEM "file:/C:/Users/alu05v/OneDrive%20-%20Consejer%C3%ADa%20de%20Educaci%C3%B3n/Marcas/XML/Modulos%20Software/Modulos%20Software%20externos/Modulos%20Software.dtd">
+<informacion curso="1">
+   <software codigo="N1" tipo="gratuito">
+   <nombre>Notepad++</nombre>
+   <dataPubli ano="2015" mes="marzo" />
+ </software>
+   <software codigo="X1">
+   <nombre>XML Copy Editor</nombre>
+   <dataPubli ano="2012" mes="mayo" />
+ </software>
+   <software codigo="M1" tipo="comercial">
+   <nombre>Microsoft Word</nombre>
+ </software>
+ <software codigo="P1">
+   <nombre>PacketTracer</nombre>
+   <dataPubli ano="2016" mes="enero" />
+ </software>
+   <modulo usa="N1 X1">
+   <titulo>Lenguaje de marcas</titulo>
+ </modulo>
+   <modulo usa="P1">
+   <titulo>Redes</titulo>
+ </modulo>
+ <modulo>
+  <titulo>FOL</titulo>
+ </modulo>
+</informacion>

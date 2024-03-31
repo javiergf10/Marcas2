@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE factura[
+<!ELEMENT factura (datos_empresa, datos_cliente, datos_factura)>
+<!ELEMENT datos_empresa (nombre, dir, poblacion, provincia, cif, telefono)>
+<!ELEMENT datos_cliente (nombre, dir_env, poblacion, provincia)>
+<!ELEMENT datos_factura (fecha, linea*, base, cuota_iva, total)>
+<!ELEMENT linea (ref, desc, cant, precio, importe)>
+
+<!ATTLIST factura n_fac CDATA #REQUIRED>
+<!ATTLIST poblacion cod_postal CDATA #REQUIRED>
+<!ATTLIST datos_cliente n_cli CDATA #REQUIRED>
+<!ATTLIST datos_factura n_ped CDATA #REQUIRED>
+<!ATTLIST datos_factura iva CDATA #REQUIRED>
+<!ATTLIST datos_factura f_pago CDATA #REQUIRED>
+<!ATTLIST datos_factura moneda CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT dir (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT cif (#PCDATA)>
+<!ELEMENT telefono EMPTY>
+
+<!ELEMENT dir_env (#PCDATA)>
+
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT ref (#PCDATA)>
+<!ELEMENT desc (#PCDATA)>
+<!ELEMENT cant (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+
+<!ELEMENT base (#PCDATA)>
+<!ELEMENT cuota_iva (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+]>
+
+<factura n_fac="f999">
+ <datos_empresa>
+ <nombre>ASAC comunicaciones.</nombre>
+ <dir>General Elorza 1</dir>
+ <poblacion cod_postal="33400">Oviedo</poblacion>
+ <provincia>Asturias</provincia>
+ <cif>Q-945455</cif>
+ <telefono />
+ </datos_empresa>
+ <datos_cliente n_cli="c900">
+ <nombre>Jose, Fernandez Perez</nombre>
+ <dir_env>General Elorza 1</dir_env>
+ <poblacion cod_postal="33400">Oviedo</poblacion>
+ <provincia>Asturias</provincia>
+ </datos_cliente>
+ <datos_factura n_ped="p800" iva="16" f_pago="efectivo" moneda="euro">
+  <fecha>12-01-2005</fecha>
+  <linea>
+    <ref>MII9494/8</ref>
+   <desc>MICRO PENTIUM IV 3000MHZ FB9494</desc>
+   <cant>1</cant>
+   <precio>230</precio>
+   <importe>294,80</importe>
+ </linea>
+ <linea>
+   <ref>MOOQDIP4</ref>
+   <desc>PLACA BASE QDI P4</desc>
+  <cant>1</cant>
+   <precio>180</precio>
+  <importe>180,80</importe>
+ </linea>
+ <linea>
+ <ref>MM512M32</ref>
+ <desc>DIMM DDR 512MB 3200</desc>
+ <cant>2</cant>
+ <precio>40</precio>
+ <importe>92,80</importe>
+ </linea>
+ <linea>
+ <ref>HD250SATA</ref>
+ <desc>DISCO DURO 250GB S-ATA 7200</desc>
+ <cant>4</cant>
+ <precio>120</precio>
+ <importe>500,80</importe>
+ </linea>
+  <base>970,00</base>
+  <cuota_iva>155,20</cuota_iva>
+   <total>1125,20</total>
+ </datos_factura>
+</factura>

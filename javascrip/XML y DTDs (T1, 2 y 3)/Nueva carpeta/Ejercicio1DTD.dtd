@@ -1,0 +1,11 @@
+<!DOCTYPE declaraciones SYSTEM "Ejercicio1XML">
+<!DOCTYPE declaraciones [
+  <!ELEMENT declaraciones (consonante, variable+, tipo_de_dato+)>
+  <!ELEMENT consonante (#PCDATA)>
+  <!ELEMENT variable (#PCDATA)>
+  <!ATTLIST consonante valor CDATA #IMPLIED>
+  <!ATTLIST variable tipo CDATA #IMPLIED>
+  <!ELEMENT tipo_de_dato (fecha, hecho)>
+  <!ELEMENT fecha (#PCDATA)>
+  <!ELEMENT hecho (#PCDATA)>
+]>

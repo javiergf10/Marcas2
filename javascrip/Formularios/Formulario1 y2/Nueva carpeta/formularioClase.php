@@ -16,13 +16,15 @@
     <imput type="text" id="nombre" />
 </dv>    
 
+<!--
+<ph
 
-<?php
     if(!isset($_get('asunto'))){
         $_GET('nombre');
         
     }
     echo "error";
-?>
+?
 <a href=""></a>        
+-->
 </html>

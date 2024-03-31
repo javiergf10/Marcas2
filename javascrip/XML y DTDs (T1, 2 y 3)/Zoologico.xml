@@ -1,3 +1,14 @@
-<animales>
-
+﻿<animales>
+<pingüino>
+  <atributo habitat ="acuatico"/>
+  <atributo clima = "humedo" />
+  <atributo clima = "frio" />
+  <atributo dieta = "pescado" />
+</pingüino>
+<leon>
+  <atributo habitat="sabana"></atributo>
+  <atributo clima="seco"/>
+  <atributo dieta="carne" />
+  
+</leon>
 </animales>

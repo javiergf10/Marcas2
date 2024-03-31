@@ -1,0 +1,14 @@
+﻿<!DOCTYPE pizzas SYSTEM "file:/C:/Users/usu15v/Desktop/ex/Ejercicio2XML.xml">
+<!DOCTYPE pizzas [
+   <!ELEMENT pizzas (ingredientes, tipos, relleno)>
+   <!ELEMENT ingredientes (ingrediente)*>
+      <!ELEMENT ingrediente (#PCDATA)>
+         <!ATTLIST ingrediente coding ID #REQUIRED>
+   <!ELEMENT tipos (tipo)*>
+      <!ELEMENT tipo EMPTY>
+    <!ATTLIST tipo nombre CDATA #REQUIRED>
+    <!ATTLIST tipo ingredientes IDREFS #REQUIRED>
+    <!ELEMENT relleno (nombre, (doble?))>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT doble EMPTY>
+]>

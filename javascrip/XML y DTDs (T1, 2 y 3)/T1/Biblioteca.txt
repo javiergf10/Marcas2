@@ -1,0 +1,33 @@
+<LIBROS>
+<Libro> <!- Esto es un comentario de mierda-->
+	<Titulo>
+		EL QUIJOTE 
+	</Titulo>
+	<Autor>
+		MIGUEL DE CERVANTES
+	</Autor>
+	<Fecha de publicación>
+		1965
+	</Fecha de publicación>
+	<Lugar de publicación>
+		Madrid
+	</Lugar de publicación>
+	<Editor>
+		Juan de la Cuesta
+	</Editor>
+	<Genero>
+		Novela
+	</Genero>
+</Libro>
+<Libro>
+	<Titulo> EL HOBBIT </Titulo>
+	<Autor> J.R. TOLKIEN </Autor>
+	<Fecha de publicación> 1937 </Fecha de publicación>
+	<Lugar de publicación> Londres </Lugar de publicación>
+	<Editor> George Allen </Editor>
+	<Genero> Novela </Genero>	
+
+
+
+</Libro>
+</LIBROS>

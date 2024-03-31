@@ -1,0 +1,7 @@
+<!DOCTYPE 
+<!ELEMENT declaraciones (consonante | tipo_de_dato | variable)>
+<!ELEMENT consonante (#PCDATA)>
+<!ATTLIST consonante valor CDATA #REQUIRED>
+<!ELEMENT tipo_de_dato (#PCDATA)>
+<!ELEMENT variable (#PCDATA)>
+<!ATTLIST variable tipo CDATA #REQUIRED>
